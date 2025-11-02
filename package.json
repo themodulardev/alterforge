@@ -1,0 +1,41 @@
+{
+  "name": "alterforge",
+  "version": "1.0.0",
+  "description": "Alterforge is a developer-friendly CLI that scaffolds scalable microservice architectures with Node.js, GraphQL, gRPC, Sequelize, and Docker — in seconds. Build, modify, and deploy modular backends with zero setup hassle.",
+  "license": "MIT",
+  "author": "themodulardev <themodulardev",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "alterforge": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "microservice",
+    "scaffold",
+    "graphql",
+    "grpc",
+    "sequelize",
+    "docker",
+    "nodejs",
+    "generator"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "inquirer": "^10.0.0",
+    "fs-extra": "^11.2.0",
+    "shelljs": "^0.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
