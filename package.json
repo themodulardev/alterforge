@@ -1,6 +1,6 @@
 {
   "name": "alterforge",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Alterforge is a developer-friendly CLI that scaffolds scalable microservice architectures with Node.js, GraphQL, gRPC, Sequelize, and Docker — in seconds. Build, modify, and deploy modular backends with zero setup hassle.",
   "license": "MIT",
   "author": "themodulardev <themodulardev",

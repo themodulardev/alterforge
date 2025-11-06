@@ -60,7 +60,7 @@ program
     ports:
       - "3306:3306"
     volumes:
-      - mysql_data:/var/lib/mysql
+      db_data:
 ` : `
   db:
     image: postgres:15
@@ -72,7 +72,7 @@ program
     ports:
       - "5432:5432"
     volumes:
-      - db_data:/var/lib/postgresql/data
+      db_data:
 `;
 
     const dbVolume = database === 'MySQL' ? 'mysql_data:' : 'db_data:';
